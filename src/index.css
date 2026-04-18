@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: var(--tw-color-black);
+  --color-white: var(--tw-color-white);
+  --color-zinc-950: var(--tw-color-zinc-950);
+  --color-zinc-900: var(--tw-color-zinc-900);
+  --color-zinc-800: var(--tw-color-zinc-800);
+  --color-zinc-700: var(--tw-color-zinc-700);
+  --color-zinc-500: var(--tw-color-zinc-500);
+  --color-zinc-400: var(--tw-color-zinc-400);
+  --color-zinc-300: var(--tw-color-zinc-300);
+  --color-zinc-200: var(--tw-color-zinc-200);
+}
+
+:root {
+  /* Default Dark Mode */
+  --tw-color-black: #000000;
+  --tw-color-white: #ffffff;
+  --tw-color-zinc-950: #09090b;
+  --tw-color-zinc-900: #18181b;
+  --tw-color-zinc-800: #27272a;
+  --tw-color-zinc-700: #3f3f46;
+  --tw-color-zinc-500: #71717a;
+  --tw-color-zinc-400: #a1a1aa;
+  --tw-color-zinc-300: #d4d4d8;
+  --tw-color-zinc-200: #e4e4e7;
+}
+
+.theme-light {
+  /* Light Mode Overrides (Inverted Palette) */
+  --tw-color-black: #f8f9fa;       /* root bg */
+  --tw-color-white: #09090b;       /* primary text */
+  --tw-color-zinc-950: #ffffff;    /* panel bg */
+  --tw-color-zinc-900: #f4f4f5;    /* secondary bg */
+  --tw-color-zinc-800: #e4e4e7;    /* borders */
+  --tw-color-zinc-700: #d4d4d8;    /* hover states */
+  --tw-color-zinc-500: #71717a;    /* muted text */
+  --tw-color-zinc-400: #52525b;    /* muted dark text */
+  --tw-color-zinc-300: #3f3f46;    /* inverted */
+  --tw-color-zinc-200: #27272a;    /* inverted */
+}
